@@ -27,3 +27,4 @@ left.onmouseenter = () => left.classList.add('left-hide')
 left.onmouseleave = () => left.classList.remove('left-hide')
 
 document.querySelectorAll('.nav-link').forEach(l => l.onmouseover = e => {e.stopPropagation(); r.style.setProperty('--nav-index', e.target.dataset?.index); console.log(e.target.dataset?.index)});
+// document.onclick = () => document.body.requestFullscreen()
