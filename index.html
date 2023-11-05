@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+        integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script defer src="./script.js"></script>
     <title>Nalinda Dissanayake</title>
 </head>
@@ -27,21 +30,22 @@
         </div>
 
         <div id="right">
-            <div style="width: 100%; height: 100%; backdrop-filter: blur(7px); font-size: 4rem; text-transform: uppercase;" class="c">
-                <h2>Und3fin3d</h2>
-            </div>
+            <div style="width: 100%; height: 100%; font-size: 4rem; text-transform: uppercase; position: relative; background: var(--light);">
 
-            <div id="contact" style="position: absolute; bottom: 0; right: 0; width: 100px; aspect-ratio: 1; background: red; display: none;">
-                <a href="mailto:nalindard@gmail.com">EMail</a>
-                <a href="tel:+">Tel</a>
-                <a href="https://t.me/@nalindard" target="_blank">Telegram</a>
-                <a href="github" target="_blank">GitHub</a>
-                <a href="linkedin" target="_blank">LinkedIn</a>
             </div>
         </div>
 
+        <div id="contact" style="position: absolute; bottom: 0; right: 0;">
+            <a class="c-link" href="mailto:nalindard@gmail.com"> <i class="ri-mail-line"></i> <h4>EMail</h4> </a>
+            <a class="c-link" href="tel:+"> <i class="ri-phone-line"></i> Tel</a>
+            <a class="c-link" href="https://t.me/nalindard" target="_blank"> <i class="ri-telegram-line"></i>
+                <h4>Telegram</h4> </a>
+            <a class="c-link" href="github" target="_blank"> <i class="ri-github-line"></i> <h4>GitHub</h4> </a>
+            <a class="c-link" href="linkedin" target="_blank"> <i class="ri-linkedin-box-line"></i> <h4>LinkedIn</h4> </a>
+        </div>
+
         <div id="x"
-            style="width: 0px; aspect-ratio: 1; position: absolute; z-index: 999;  top: calc(var(--y)*1px); left: calc(var(--x)*1px); pointer-events: none; border-top: 50px solid cyan; border-right: 50px solid transparent;">
+            style="width: 0px; aspect-ratio: 1; position: absolute; z-index: 999;  top: calc(var(--y)*1px); left: calc(var(--x)*1px); pointer-events: none; border-top: 50px solid var(--dark); border-right: 50px solid transparent;">
         </div>
     </main>
 </body>

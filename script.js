@@ -1,5 +1,11 @@
-window.onload = () => {
+const left = document.getElementById('left')
 
+window.onload = () => {
+    const devMod = true
+    if (!devMod) {
+        left.classList.add('left-hide')
+        setTimeout(() => { left.classList.remove('left-hide') }, 720)
+    }
 }
 
 const r = document.querySelector(':root')
@@ -21,10 +27,9 @@ function setTheme() {
     // alert(localStorage.getItem('theme'))
 }
 
-const left = document.getElementById('left')
 
 left.onmouseenter = () => left.classList.add('left-hide')
 left.onmouseleave = () => left.classList.remove('left-hide')
 
-document.querySelectorAll('.nav-link').forEach(l => l.onmouseover = e => {e.stopPropagation(); r.style.setProperty('--nav-index', e.target.dataset?.index); console.log(e.target.dataset?.index)});
+document.querySelectorAll('.nav-link').forEach(l => l.onmouseover = e => { e.stopPropagation(); r.style.setProperty('--nav-index', e.target.dataset?.index); });
 // document.onclick = () => document.body.requestFullscreen()
