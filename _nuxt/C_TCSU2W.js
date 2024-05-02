@@ -1,1 +1,0 @@
-import{c as t,o,a as e}from"./BfHiCsqA.js";const s={class:"blog-page"},c=e("h2",{class:"blog-title"},"Vue router vs React router",-1),a=e("hr",{class:"py-7 border-blue border-opacity-50"},null,-1),r=e("p",{class:"font-light text-sm lg:text-lg"}," ... ",-1),_=[c,a,r],u={__name:"VueAndReactRouter",setup(l){return(n,d)=>(o(),t("div",s,_))}};export{u as default};
