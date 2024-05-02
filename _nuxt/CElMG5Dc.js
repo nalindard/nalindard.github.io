@@ -1,0 +1,1 @@
+import{c as t,o as s,a as e}from"./B-A5kHBA.js";const o={class:"blog-page"},a=e("h2",{class:"blog-title"},"Pinia vs Redux",-1),c=e("hr",{class:"py-7 border-blue border-opacity-50"},null,-1),_=e("p",{class:"font-light text-sm lg:text-lg"}," ... ",-1),l=[a,c,_],p={__name:"PiniaOverRedux",setup(n){return(r,i)=>(s(),t("div",o,l))}};export{p as default};
