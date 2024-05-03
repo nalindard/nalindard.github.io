@@ -1,17 +1,17 @@
 /* PrismJS 1.29.0
 https://prismjs.com/download.html#themes=prism-dark&languages=markup+css+clike+javascript+bash+jsx+tsx+typescript */
-pre[class*=language-] {
+/* pre[class*=language-] {
     border-left: 4px solid cyan;
-}
+} */
 
 code[class*=language-],
 pre[class*=language-] {
-    color: #00fbff;
+    color: #c8f5f6;
     background: 0 0;
-    /* text-shadow: 0 0 1px #0799ac,
-                 0 0 2px #0799ac,
-                 0 0 5px #00f0ff,
-                 0 0 10px #00f0ff; */
+    /* text-shadow: 0 0 1px rgba(30, 255, 0, 0.5),
+                 0 0 2px rgba(13, 255, 0, 0.5),
+                 0 0 4px rgba(30, 255, 0, 0.5),
+                 0 0 12px rgba(0, 255, 30, 0.5); */
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-size: 1em;
     text-align: left;
@@ -29,6 +29,26 @@ pre[class*=language-] {
     hyphens: none
 }
 
+@media only screen and (min-width: 300px) {
+
+    code[class*=language-],
+    pre[class*=language-] {
+        font-size: .7rem;
+    }
+    code[class*=language-], ::-webkit-scrollbar {
+        height: 5px !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    code[class*=language-],
+    pre[class*=language-] {
+        font-size: 1rem;
+    }
+
+}
+
 @media print {
 
     code[class*=language-],
@@ -39,12 +59,12 @@ pre[class*=language-] {
 
 :not(pre)>code[class*=language-],
 pre[class*=language-] {
-    background: #0b1618
+    background: #121b1d
 }
 
 pre[class*=language-] {
     padding: 1em;
-    margin: .5em 0;
+    /* margin: .5em 0; */
     overflow: auto;
     /* border: .3em solid #7a6651; */
     /* border-radius: .5em; */
@@ -63,7 +83,7 @@ pre[class*=language-] {
 .token.comment,
 .token.doctype,
 .token.prolog {
-    color: #997f66
+    color: #eea764
 }
 
 .token.punctuation {
@@ -80,7 +100,7 @@ pre[class*=language-] {
 .token.property,
 .token.symbol,
 .token.tag {
-    color: #d1939e
+    color: #f75472
 }
 
 .token.attr-name,
@@ -104,7 +124,7 @@ pre[class*=language-] {
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-    color: #d1939e
+    color: #34f6f6
 }
 
 .token.important,
