@@ -59,7 +59,7 @@ pre[class*=language-] {
 
 :not(pre)>code[class*=language-],
 pre[class*=language-] {
-    background: #121b1d
+    background: #00181e
 }
 
 pre[class*=language-] {
@@ -100,7 +100,7 @@ pre[class*=language-] {
 .token.property,
 .token.symbol,
 .token.tag {
-    color: #f75472
+    color: #00ffee
 }
 
 .token.attr-name,
