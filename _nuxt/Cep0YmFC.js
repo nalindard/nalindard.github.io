@@ -1,0 +1,1 @@
+import{c as e,o as s,a as t}from"./BS5yRb4x.js";const o={class:"blog-page"},c=t("h2",{class:"blog-title"},"Edge of the Crystal sky",-1),a=t("hr",{class:"py-7 border-blue border-opacity-50"},null,-1),l=t("p",{class:"font-light text-sm lg:text-lg"}," UNDEFINED ",-1),_=[c,a,l],h={__name:"ImEdge",setup(r){return(n,d)=>(s(),e("div",o,_))}};export{h as default};
