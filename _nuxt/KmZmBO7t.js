@@ -1,0 +1,1 @@
+import{c as s,a as e,o}from"./DJvrapJU.js";const l={class:"blog-page"},n={__name:"ImEdge",setup(a){return(r,t)=>(o(),s("div",l,t[0]||(t[0]=[e("h2",{class:"blog-title"},"Edge of the Crystal sky",-1),e("hr",{class:"py-7 border-blue border-opacity-50"},null,-1),e("p",{class:"font-light text-sm lg:text-lg"},"UNDEFINED",-1)])))}};export{n as default};

@@ -1,0 +1,1 @@
+import{c as s,a as e,o as a}from"./DJvrapJU.js";const o={class:"blog-page"},n={__name:"PiniaOverRedux",setup(l){return(r,t)=>(a(),s("div",o,t[0]||(t[0]=[e("h2",{class:"blog-title"},"Pinia vs Redux",-1),e("hr",{class:"py-7 border-blue border-opacity-50"},null,-1),e("p",{class:"font-light text-sm lg:text-lg"},"...",-1)])))}};export{n as default};
