@@ -1,1 +1,0 @@
-import{c as o,a as e,o as s}from"./DJvrapJU.js";const r={class:"blog-page"},n={__name:"VueAndReactRouter",setup(a){return(l,t)=>(s(),o("div",r,t[0]||(t[0]=[e("h2",{class:"blog-title"},"Vue router vs React router",-1),e("hr",{class:"py-7 border-blue border-opacity-50"},null,-1),e("p",{class:"font-light text-sm lg:text-lg"},"...",-1)])))}};export{n as default};
